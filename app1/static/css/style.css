@@ -1,0 +1,59 @@
+.main{
+    height: 100vh;
+    text-align: center;
+}
+.main__text{
+    text-align: center;
+}
+.main__btns{
+    width: 35%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.main__btns a{
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    justify-content: center;
+    color: #fff;
+    background-color: rgb(53, 109, 42);
+}
+.main__btns a:hover{
+    background-color: rgb(37, 77, 30);
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+img{
+    display: block;
+    width: 250px;
+    height: 170px;
+    margin: 0 auto;
+}
+.producer img{
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    gap: 35px;
+    padding: 50px;
+}
+.card{
+    padding: 13px;
+    background: #9e9b9b70;
+}
+
+footer{
+    height: 70px;
+    background-color: rgb(53, 109, 42);
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
